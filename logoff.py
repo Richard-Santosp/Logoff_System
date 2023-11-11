@@ -2,10 +2,10 @@ from tkinter import *
 from tkinter import font
 from config import *
 
-fundo = "#166dba"
-campo = '#a0c6eb'
-botoes ='#79c1fb'
-fonte_cor = '#000000'
+fundo = "#000000"
+campo = '#000000'
+botoes ='#1C1C1C'
+fonte_cor = '#76b57c'
 
 
 def encerrar_windows():
