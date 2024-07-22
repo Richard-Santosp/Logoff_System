@@ -8,9 +8,15 @@ def format_number(num):
         return f'{num} Hora'
     return f'{num} Horas'
 
-def logoff(campo):
+def logoff_windows(campo):
     os.system(f'shutdown -s -f -t {campo}')
 
+def logoff_linux(campo):
+    os.system(f'shutdown {campo}')
 
-def encerrar_logoff():
+
+def encerrar_logoff_windows():
     return os.system('shutdown -a')
+
+def encerrar_logoff_linux():
+    return os.system('shutdown -c')
