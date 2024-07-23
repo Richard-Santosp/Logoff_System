@@ -3,10 +3,10 @@ from tkinter import font
 from config import *
 import platform
 
-fundo = "#000000"
-campo = '#000000'
+fundo = "#2b2d42"
+campo = '#edf2f4'
 botoes ='#1C1C1C'
-fonte_cor = '#76b57c'
+fonte_cor = '#edf2f4'
 
 SO = platform.system()
 
