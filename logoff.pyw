@@ -14,6 +14,7 @@ if SO == "Windows":
     def encerrar_windows():
         root = Tk()
         root.title('Encerrar sistema Windows')
+        root.after(201, lambda: root.iconbitmap("C:/Users/Richard/Documents/projetos_python/Logoff_System/images/logoff.ico"))
         root.resizable(False, False)
         root.configure(bg=fundo)
 
